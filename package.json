@@ -1,0 +1,23 @@
+{
+  "name": "webdhtbmp",
+  "version": "1.0.0",
+  "description": "Monitoreo de temperatura y presión ambiental vía http en tiempo real",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kranfix/webdhtbmp.git"
+  },
+  "author": "Frank Moreno <frankmoreno1993@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kranfix/webdhtbmp/issues"
+  },
+  "homepage": "https://github.com/kranfix/webdhtbmp#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "node-red": "^0.17.5"
+  }
+}
