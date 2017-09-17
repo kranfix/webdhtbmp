@@ -5,8 +5,6 @@ var RED = require("node-red");
 // Create an Express app
 var app = express();
 
-app.use(cors());
-
 // Add a simple route for static content served from 'public'
 app.use("/",express.static("public"));
 
@@ -18,7 +16,7 @@ var settings = {
     httpAdminRoot:"/red",
     httpNodeRoot: "/x",
     userDir:"./nr",
-    flowFile:"miservidor.json",
+    flowFile:"micliente.json",
     functionGlobalContext: { },    // enables global context
     httpNodeAuth: {
     	user:"kranfix",
