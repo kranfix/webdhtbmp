@@ -5,8 +5,6 @@ var RED = require("node-red");
 // Create an Express app
 var app = express();
 
-app.use(cors());
-
 // Add a simple route for static content served from 'public'
 app.use("/",express.static("public"));
 
@@ -28,7 +26,7 @@ var settings = {
 	    type: "credentials",
 	    users: [{
 	        username: "admin",
-	        password: "$2a$08$/yFK336D8w3Z51FUTxBADOKdat6xkLpir2S4mwS95RekmQPtkresK",
+	        password: "$2a$08$/yFK336D8w3Z51FUTxBifADOKdat6xkLpir2S4mwS95RekmQPtkresK",
 	        permissions: "*"
 	    },
 	    {
